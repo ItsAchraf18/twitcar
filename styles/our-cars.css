@@ -1,0 +1,2476 @@
+/* font family*/
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
+:root {
+    --primary: #FFDA1F
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0 ;
+    padding: 0;
+    width: 100%;
+}
+
+/*  HEADER  */
+.container-header{
+    display: grid;
+    grid-gap: 10px;
+}
+
+.header {
+    width: 100%;
+    list-style: center;
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+}
+
+.header img{
+    align-items: center;
+    margin: 0;
+    width: 178px;
+    height: 62px;
+    padding-left: 70px; 
+    padding-bottom: 3px;
+    padding-top: 4px;
+}
+
+.header p {
+    font-size: 15px;
+    width: 290px;
+    color: #605E5E;
+    font-family: Helvetica;
+    height: 40px;
+    padding-top: 25px;
+    padding-left: 300px;
+}
+
+.header p b{
+    color: rgb(47,46,46);
+    padding: 0;
+    margin: 0;
+    width: 470px;
+}
+
+
+/*  MENU */
+.container-menu{
+    display: grid;
+    grid-gap: 20px;
+
+}
+
+.menu{
+    width: 100%;
+    background-color: #FFDA1F;
+    list-style: none;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.menu a{
+    text-decoration: none;
+    color: #2F2E2E;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; 
+    padding: 10px 0px ;
+    text-align: center;
+}
+
+.menu a:hover{
+    color: white;
+}
+
+.nav-toggle{
+    display: none;
+}
+
+
+/*  BODY  */
+.arriere-plan{
+    background-image: url(../images/our-img3.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 460px;
+    padding-top: -50px;
+    width: 100%;
+    height: 540px;
+    display: grid;
+}
+
+.arriere-plan h4{
+    display: grid;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+
+.arriere-plan h2{
+    display: grid;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 70px;
+    height: 94px;
+}
+
+.arriere-plan .ligne{
+    width: 120px;
+    height: 9px;
+    background-color: var(--primary);
+    margin-left: 580px;
+    margin-top: -80px;
+    padding: 0;   
+}
+
+
+/*  BUTTONS  */
+.buttons{
+    display: grid;
+    width: 1050px;
+    margin-top: -130px;
+    grid-template-columns: repeat(6,1fr);
+    margin-left: 150px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.buttons a button:hover {
+    background-color: transparent;
+    transition: 0.4s;
+    color: #FFDA1F;
+}
+
+.buttons a button{
+    text-decoration: none;
+    color: black;
+}
+
+
+.land-rover{
+    display: grid;
+    font-size: 17px;
+    color: #000000;
+    align-items: center;
+    font-family:sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.01em;
+    transition: all 0.2s ease, visibility 0s;
+    border-radius: 7px;
+    border: 0px solid #FFDA1F;
+    background: #FFDA1F;
+    cursor: pointer;
+    height: 45px;
+    width: 120px;
+}
+
+.volkswagen{
+    display: grid;
+    font-size: 17px;
+    align-items: center;
+    color: #000000;
+    font-family:sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.01em;
+    transition: all 0.2s ease, visibility 0s;
+    border-radius: 7px;
+    border: 0px solid rgb(255, 248, 107);
+    background: #FFDA1F;
+    border: 0px solid #FFDA1F ;
+    cursor: pointer;
+    height: 44px;
+    width: 120px;
+}
+
+.jeepbtn{
+    align-items: center;
+    font-size: 17px;
+    color: #000000;
+    font-family:sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.01em;
+    transition: all 0.2s ease, visibility 0s;
+    border-radius: 7px;
+    background: #FFDA1F;
+    border: 0px solid #FFDA1F ;
+    cursor: pointer;
+    height: 43px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.skodabtn{
+    align-items: center;
+    font-size: 17px;
+    color: #000000;
+    font-family:sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.01em;
+    transition: all 0.2s ease, visibility 0s;
+    border-radius: 7px;
+    border: 0px solid rgb(255, 248, 107);
+    background: #FFDA1F;
+    border: 0px solid #FFDA1F ;
+    cursor: pointer;
+    height: 43px;
+    width: 105px;
+}
+
+.hyundaibtn{
+    align-items: center;
+    font-size: 17px;
+    color: #000000;
+    font-family:sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.01em;
+    transition: all 0.2s ease, visibility 0s;
+    border-radius: 7px;
+    background: #FFDA1F;
+    border: 0px solid #FFDA1F ;
+    cursor: pointer;
+    height: 43px;
+    width: 120px;
+}
+
+.renaultbtn{
+    font-size: 17px;
+    color: #000000;
+    align-items: center;
+    font-family:sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.01em;
+    transition: all 0.2s ease, visibility 0s;
+    border-radius: 7px;
+    background: #FFDA1F;
+    border: 0px solid #FFDA1F ;
+    cursor: pointer;
+    height: 43px;
+    width: 120px;
+}
+
+.citroenbtn{
+    align-items: center;
+    font-size: 17px;
+    color: #000000;
+    font-family:sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.01em;
+    transition: all 0.2s ease, visibility 0s;
+    border-radius: 7px;
+    background: #FFDA1F;
+    border: 0px solid #FFDA1F ;
+    cursor: pointer;
+    height: 43px;
+    width: 120px;
+    margin-top: -20px;
+}
+
+.daciabtn{
+    align-items: center;
+    font-size: 17px;
+    color: #000000;
+    font-family:sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.01em;
+    transition: all 0.2s ease, visibility 0s;
+    border-radius: 7px;
+    border: 0px solid #FFDA1F ;
+    background: #FFDA1F;
+    cursor: pointer;
+    height: 43px;
+    width: 120px;
+    margin-top: -20px;
+}
+
+
+/*  CARS  */
+
+/*Range Rover*/
+.range img{
+    margin-top: 40px;
+    width: 194px;
+    margin-left: 523px;
+    margin-bottom: 50px;
+}
+
+.range-pics{
+    width: 100%;
+    display: grid;
+    grid-gap: 70px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.range-pics h4{
+    display: flex;
+    font-weight: 100;
+    font-family: 'Staatliches', cursive;
+    font-size: 37px;
+    align-items: center;
+    justify-content: center;
+}
+
+.price{
+    display: inline-flex;
+}
+
+.range a:hover{
+    background-color: #FFDA1F;
+    color: white;
+}
+
+/* Range Evoque  */
+.range-evoque{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 474px;
+    grid-gap: 18px;
+    margin-left: 60px;
+}
+
+.range-evoque img{
+    margin: 0;
+    width: 474px;
+}
+
+.range-evoque img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.range-evoque h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 160px;
+}
+
+.range-evoque h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-left: -130px;
+    margin-top: 5px;
+}
+
+.range-evoque .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 180px;
+    grid-gap: 8px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.range-evoque a{
+    text-decoration: none;
+    width: 140px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 9px ;
+    padding-left: 36px;
+    margin-left: 120px;
+}
+
+/*  Range Sport  */
+.range-sport{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 474px;
+    grid-gap: 16px;
+    margin-left: 60px;
+}
+
+.range-sport img{
+    margin: 0;
+    width: 470px;
+}
+
+.range-sport img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.range-sport h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 170px;
+}
+
+.range-sport h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-left: -120px;
+    margin-top: 5px;
+}
+
+.range-sport .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 194px;
+    grid-gap: 6px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.range-sport a{
+    text-decoration: none;
+    width: 140px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 9px ;
+    padding-left: 36px;
+    margin-left: 144px;
+}
+
+/*  Volkswagen  */
+.volks img{
+    margin-top: 40px;
+    width: 120px;
+    margin-left: 563px;
+    margin-bottom: 50px;
+}
+
+.volks a:hover{
+    background-color: #FFDA1F;
+    color: white;
+}
+
+.volks-pics h4{
+    display: flex;
+    font-weight: 100;
+    font-family: 'Staatliches', cursive;
+    font-size: 37px;
+    width: 400px;
+    justify-content: center;
+}
+
+.volks-pics{
+    width: 100%;
+    display: grid;
+    grid-gap: 70px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+/* Tiguan */
+.tiguan{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 474px;
+    grid-gap: 17px;
+    margin-left: 60px;
+}
+
+.tiguan img{
+    margin: 0;
+    width: 402px;
+    margin-left: 20px;
+}
+
+.tiguan img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.tiguan h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 140px;
+}
+
+.tiguan h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-right: 149px;
+    margin-top: 5px;
+}
+
+.tiguan .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 164px;
+    grid-gap: 6px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.tiguan a{
+    text-decoration: none;
+    width: 140px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 9px ;
+    padding-left: 36px;
+    margin-left: 104px;
+}
+
+
+/* Touareg */
+.touareg{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 474px;
+    grid-gap: 17px;
+    margin-left: 70px;
+}
+
+.touareg img{
+    margin: 0;
+    width: 420px;
+}
+
+.touareg img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.touareg h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 150px;
+}
+
+.touareg h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-right: 159px;
+    margin-top: 5px;
+}
+
+.touareg .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 170px;
+    grid-gap: 6px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.touareg a{
+    text-decoration: none;
+    width: 140px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 9px ;
+    padding-top: 9px;
+    padding-left: 36px;
+    margin-left: 110px;
+}
+
+.touareg h4{
+    width: 418px;
+    height: 43px;
+}
+
+
+/* JEEP and SKODA*/
+.double{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+/*  JEEP  */
+.jeep{
+    width: 50%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.jeep img{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 60px;
+    width: 160px;
+    margin-left: 240px;
+    padding: 0;
+}
+
+/*  JEEP CAR  */
+.renegade{
+    width: 631.5px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 15px;
+}
+
+.renegade img{
+    width: 400px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.renegade img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.renegade h4{
+    display: flex;
+    font-weight: 100;
+    font-family: 'Staatliches', cursive;
+    font-size: 37px;
+    align-items: center;
+    justify-content: center;
+}
+
+.renegade h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 260px;
+}
+
+.renegade h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-left: -210px;
+    margin-top: 5px;
+}
+
+.renegade .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 275px;
+    grid-gap: 6px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.renegade a{
+    text-decoration: none;
+    width: 140px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 9px ;
+    padding-left: 36px;
+    margin-left: 214px;
+}
+
+.renegade a:hover{
+    background-color: #FFDA1F;
+    color: white;
+}
+
+
+/* SKODA  */
+.skoda {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 631.5px;
+}
+
+.skoda img{
+    width: 117px;
+    padding: 0;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+
+/*  Skoda Car  */
+.octavia{
+    width: 631.5px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 15px;
+}
+
+.octavia img{
+    width: 430px;
+    margin-left: 90px;
+    
+}
+
+.octavia img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.octavia h4{
+    display: flex;
+    font-weight: 100;
+    font-family: 'Staatliches', cursive;
+    font-size: 37px;
+    align-items: center;
+    justify-content: center;
+}
+
+.octavia h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 260px;}
+
+.octavia h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-left: -210px;
+    margin-top: 5px;
+}
+
+.octavia .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 275px;
+    grid-gap: 6px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.octavia a{
+    text-decoration: none;
+    width: 140px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 9px ;
+    padding-left: 36px;
+    margin-left: 214px;
+}
+
+.octavia a:hover{
+    background-color: #FFDA1F;
+    color: white;
+}
+
+
+/* HYUNDAI */
+.hyundai {
+    display: grid;
+    width: 100%;
+}
+
+.hyundai img{
+    width: 136px;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 560px;
+}
+
+
+/* HYUNDAI CARS  */
+.hyundai-cars{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+/*  I10  */
+.i10{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+}
+
+.i10 img{
+    width: 373px;
+    margin-left: 35px;
+}
+
+.i10 img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.i10 h4{
+    display: flex;
+    font-weight: 100;
+    font-family: 'Staatliches', cursive;
+    font-size: 37px;
+    align-items: center;
+    justify-content: center;
+}
+
+.i10 h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 150px;}
+
+.i10 h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-left: -113px;
+    margin-top: 5px;
+}
+
+.i10 .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 166px;
+    margin-bottom: 8px;
+    grid-gap: 6px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.i10 a{
+    text-decoration: none;
+    width: 140px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 9px ;
+    padding-left: 36px;
+    margin-left: 107px;
+}
+
+.i10 a:hover{
+    background-color: #FFDA1F;
+    color: white;
+}
+
+/* Hyundai ACCENT */
+.accent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+    width: 361px;
+    margin-left: 35px;
+}
+
+.accent img{
+    width: 360px;
+    margin-left: 0;
+}
+
+.accent img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.accent h4{
+    display: flex;
+    font-weight: 100;
+    font-family: 'Staatliches', cursive;
+    font-size: 37px;
+    align-items: center;
+    justify-content: center;
+}
+
+.accent h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 125px;}
+
+.accent h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-left: -77px;
+    margin-top: 5px;
+}
+
+.accent .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 139px;
+    margin-bottom: 8px;
+    grid-gap: 6px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.accent a{
+    text-decoration: none;
+    width: 140px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 9px ;
+    padding-left: 36px;
+    margin-left: 80px;
+}
+
+.accent a:hover{
+    background-color: #FFDA1F;
+    color: white;
+}
+
+/* Hyundai ELANTRA */
+.elantra{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 8px;
+    width: 370px;
+    margin-left: 25px;
+}
+
+.elantra img{
+    width: 370px;
+    margin-left: 0;
+}
+
+.elantra img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.elantra h4{
+    display: flex;
+    font-weight: 100;
+    font-family: 'Staatliches', cursive;
+    font-size: 37px;
+    align-items: center;
+    justify-content: center;
+}
+
+.elantra h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 128px;
+}
+
+.elantra h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-left: -80px;
+    margin-top: 5px;
+}
+
+.elantra .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 146px;
+    margin-bottom: 8px;
+    grid-gap: 4px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.elantra a{
+    text-decoration: none;
+    width: 140px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 9px ;
+    padding-left: 36px;
+    margin-left: 90px;
+}
+
+.elantra a:hover{
+    background-color: #FFDA1F;
+    color: white;
+}
+
+
+/* RENAULT */
+.renault {
+    display: grid;
+    width: 100%;
+}
+
+.renault img{
+    width: 116px;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 560px;
+}
+
+
+/* RENAULT CARS*/
+.renault-cars{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+/* Clio 5 */
+.clio5{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+}
+
+.clio5 img{
+    width: 373px;
+    margin-left: 35px;
+}
+
+.clio5 img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.clio5 h4{
+    display: flex;
+    font-weight: 100;
+    font-family: 'Staatliches', cursive;
+    font-size: 37px;
+    align-items: center;
+    justify-content: center;
+}
+
+.clio5 h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 155px;}
+
+.clio5 h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-left: -106px;
+    margin-top: 5px;
+}
+
+.clio5 .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 170px;
+    margin-bottom: 8px;
+    grid-gap: 6px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.clio5 a{
+    text-decoration: none;
+    width: 135px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 2px 4px;
+    padding-top: 8px;
+    padding-left: 25px;
+    margin-left: 126px;
+}
+
+.clio5 a:hover{
+    background-color: #FFDA1F;
+    color: white;
+}
+
+
+/*  RENAULT EXPRESS  */
+.express{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+    width: 361px;
+    margin-left: 35px;
+}
+
+.express img{
+    width: 377px;
+    margin-left: 0;
+}
+
+.express img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.express h4{
+    display: flex;
+    font-weight: 100;
+    font-family: 'Staatliches', cursive;
+    font-size: 37px;
+    align-items: center;
+    justify-content: center;
+}
+
+.express h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 125px;}
+
+.express h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-left: -90px;
+    margin-top: 5px;
+}
+
+.express .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 139px;
+    margin-bottom: 8px;
+    grid-gap: 6px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.express a{
+    text-decoration: none;
+    width: 135px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 2px 4px;
+    padding-top: 8px;
+    padding-left: 25px;
+    margin-left: 99px;
+}
+
+.express a:hover{
+    background-color: #FFDA1F;
+    color: white;
+}
+
+
+/*  RENAULT CLIO 4  */
+.clio4{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 8px;
+    width: 370px;
+    margin-left: 25px;
+}
+
+.clio4 img{
+    width: 357px;
+    margin-left: 0;
+}
+
+.clio4 img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+/*CLIO 4 title*/
+.clio4 h1{
+    display: flex;
+    font-weight: 100;
+    font-family: 'Staatliches', cursive;
+    font-size: 37px;
+    align-items: center;
+    justify-content: center;
+}
+
+.clio4 .price{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 6px;
+}
+
+/* 300 DH */
+.clio4 h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 128px;
+}
+
+/* /DAY OF 300 DH */
+.clio4 h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-left: -21px;
+    margin-top: 5px;
+}
+
+/* Automatic */
+.clio4 .price h6{
+    margin-left: 45px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+}
+
+/* 450 DH */
+.clio4 .price h3{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: -103px;
+    margin-top: 5px;
+}
+
+/* /DAY OF 450 DH */
+.clio4 h4{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-top: -20px;
+    margin-left: 211px;
+    width: 20px;
+}
+
+.clio4 .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 146px;
+    margin-bottom: 8px;
+    grid-gap: 4px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.clio4 a{
+    text-decoration: none;
+    width: 135px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 9px ;
+    padding-top: 8px;
+    padding-left: 30px;
+    margin-left: 94px;
+}
+
+.clio4 a:hover{
+    background-color: #FFDA1F;
+    color: white;
+}
+
+
+/* Citroen*/
+.citroen{
+    width: 100%;
+    display: grid;
+}
+
+.citroen img{
+    margin-top: 40px;
+    width: 120px;
+    margin-left: 563px;
+    margin-bottom: 50px;
+}
+
+.citroen a:hover{
+    background-color: #FFDA1F;
+    color: white;
+}
+
+.citroen-pics h4{
+    display: flex;
+    font-weight: 100;
+    font-family: 'Staatliches', cursive;
+    font-size: 37px;
+    width: 400px;
+    justify-content: center;
+}
+
+.citroen-pics{
+    width: 100%;
+    display: grid;
+    grid-gap: 70px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+/* C-Elysee */
+.c-elysee{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 421px;
+    grid-gap: 17px;
+    margin-left: 60px;
+}
+
+.c-elysee img{
+    margin: 0;
+    width: 421px;
+}
+
+.c-elysee img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.c-elysee h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 140px;
+    width:235px;
+}
+
+.c-elysee h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-right: 149px;
+    margin-top: 5px;
+}
+
+.c-elysee .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 164px;
+    grid-gap: 6px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.c-elysee a{
+    text-decoration: none;
+    width: 140px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 9px ;
+    padding-left: 36px;
+    margin-left: 110px;
+}
+
+
+/* C3 */
+.c3{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 474px;
+    grid-gap: 10px;
+    margin-left: 70px;
+}
+
+.c3 img{
+    margin: 0;
+    width: 427px;
+    height: 236px;
+}
+
+.c3 img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.c3 h4{
+    width: 418px;
+    height: 43px;
+}
+
+.c3 h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 150px;
+}
+
+.c3 h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-right: 159px;
+    margin-top: 5px;
+}
+
+.c3 .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 170px;
+    grid-gap: 6px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.c3 a{
+    text-decoration: none;
+    width: 140px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding-top: 7px ;
+    padding-left: 33px;
+    margin-left: 120px;
+}
+
+
+/* Dacia*/
+.dacia{
+    width: 100%;
+    display: grid;
+}
+
+.dacia img{
+    margin-top: 40px;
+    width: 120px;
+    margin-left: 563px;
+    margin-bottom: 50px;
+}
+
+.dacia a:hover{
+    background-color: #FFDA1F;
+    color: white;
+}
+
+.dacia-pics{
+    width: 100%;
+    display: grid;
+    grid-gap: 70px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.dacia-pics h4{
+    display: flex;
+    font-weight: 100;
+    font-family: 'Staatliches', cursive;
+    font-size: 37px;
+    width: 400px;
+    justify-content: center;
+}
+
+/*  LOGAN  */
+.logan{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 421px;
+    grid-gap: 17px;
+    margin-left: 60px;
+}
+
+.logan img{
+    margin: 0;
+    width: 421px;
+}
+
+.logan img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.logan h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 140px;
+    width:235px;
+}
+
+.logan h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-right: 149px;
+    margin-top: 5px;
+}
+
+.logan .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 164px;
+    grid-gap: 6px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.logan a{
+    text-decoration: none;
+    width: 140px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding: 9px ;
+    padding-left: 36px;
+    margin-left: 110px;
+}
+
+
+/*  DUSTER  */
+.duster{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 474px;
+    grid-gap: 10px;
+    margin-left: 70px;
+}
+
+.duster img{
+    margin: 0;
+    width: 427px;
+    height: 236px;
+}
+
+.duster img:hover{
+    animation: shake 1.8s;
+    animation-iteration-count: infinite;
+}
+
+.duster h4{
+    width: 418px;
+    height: 43px;
+}
+
+.duster h5{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFDA1F;
+    margin-left: 150px;
+}
+
+.duster h2{
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 100;
+    margin-right: 159px;
+    margin-top: 5px;
+}
+
+.duster .details{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 170px;
+    grid-gap: 6px;
+    color: rgb(42, 40, 40);
+    width: 100px;
+}
+
+.duster a{
+    text-decoration: none;
+    width: 140px;
+    background-color: white;
+    border: 2px solid #FFDA1F;
+    border-radius: 50px;
+    color: #FFDA1F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0.05em;
+    padding-top: 7px ;
+    padding-left: 30px;
+    margin-left: 120px;
+}
+
+@keyframes shake {
+    0%  { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/* FOOTER */
+footer{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.contact{
+    margin: 0;
+    width: 1263px;
+    height: 770px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(31, 31, 31);
+    grid-template-columns: repeat(6,1fr)
+}
+
+.contact h4 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 92px;
+    letter-spacing: -0.05em;
+    color: rgb(255, 218, 31);
+    display: grid;
+}
+
+/* Yellow Line*/
+.first{
+    width: 92px;
+    height: 8px;
+    background-color: rgb(255, 218, 31);
+    border: 1px solid rgb(255, 218, 31);
+    margin-left: 600px;
+    margin-top: 15px;
+    display: grid
+}    
+
+.contact h6 {
+    line-height: 1em;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(160, 160, 159);
+    letter-spacing: 0em;
+    margin-top: 30px;
+    display: grid;
+    width: 1260px;
+}
+
+.icons{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    margin-top: 40px;
+}
+
+.icons p{
+    color: rgb(160, 160, 159);
+
+}
+
+.icon1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.icon1 img{
+    width: 40px;
+margin-left: 150px;
+}
+
+.icon1 p{
+    padding-top: 5px;
+}
+
+.icons .icon2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 320px;
+}
+
+.icon2 img{
+    width: 30px;
+margin-left: 70px;
+}
+
+.icon2 p{
+    padding-left: 0px;
+    width: 200px;
+    padding-top: 2px;
+}
+
+.icons .icon3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 250px;
+}
+
+.icon3 img{
+width: 33px;
+}
+
+.icon3 p{
+    width: 200px;
+    padding-top: 6px;
+}
+
+iframe{
+    width:65%;
+    height: 300px;
+    margin-left: 230px;
+    margin-top: 25px;
+}
+
+.social{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 130px;
+    margin-left: 600px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.facebook img{
+    width: 19px;
+}
+
+.instagram img {
+    width: 35px;
+}
+
+.whatsapp img{
+    margin-left: 13px;
+    width: 37px;
+}
+
+/*  COPY gray line*/
+.second{
+    border:1px solid #605E5E;
+    background-color: #605E5E;
+    width: 1260px;
+}
+
+.copy{
+    margin-top: 14px;
+    color: #605E5E;
+}
+
+@media screen and (max-width:750px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+    width: 480px;
+    }
+
+    /* HEADER */
+    .header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
+    .header img{
+        margin-left: 200px;
+        }
+    .header p {
+        display: none;
+    }
+
+    /* MENU */
+    .menu{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    position: absolute;
+    font-weight: bold;
+    height: 520px;
+    }
+
+    .menu li a{
+        font-size: 23px;
+        padding-top: 50px;
+    }
+    nav{
+        transform: scale(1,0);
+        transition: transform 400ms ease-in-out ;
+        transform-origin: top;
+    }
+    nav a{
+        opacity: 0;
+        transition: opacity 150ms ease-in-out ;
+    }
+    .nav-toggle:checked ~ nav{
+        transform: scale(1,1);
+        
+    }
+    .nav-toggle:checked ~ nav a{
+        opacity: 1;
+        transition: opacity 250ms ease-in-out 250ms;
+    }
+    .nav-toggle-label{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 1em;
+        margin-top: 12px;
+        display: flex;
+        align-items: center;
+        width: 30px;
+        border: 1px solid #FFDA1F;
+        border-radius: 5px;
+        padding-top: 23px;
+        padding-left: 11px;
+        padding-bottom: 23px;
+        padding-right: 5px;
+    }
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        display: block;
+        background: #605E5E;
+        height: 2px;
+        width: 24px;
+        border-radius: 2px;
+        position: relative;
+    }
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        content: '';
+        position: absolute;
+    }
+    .nav-toggle-label span::before{
+        bottom: 9px;
+    }
+    .nav-toggle-label span::after{
+        top: 9px;
+    }
+
+    /* BODY */
+    .arriere-plan{
+        padding-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        background-size: cover;
+        float: left;
+    }
+    .arriere-plan h2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        font-size: 45px;
+        margin-top: -15px;
+        width: 300px;
+        margin-left: 100px;
+    }
+    .arriere-plan .ligne{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 190px;
+        margin-top: -20px;
+    }
+    .arriere-plan .buttons{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 15px;
+        width: 120px;
+        margin-left: 190px;
+        align-items: center;
+        justify-content: center;
+        margin-top:10px;
+    }
+    /*  BUTTONS  */
+    .buttons button{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .jeepbtn{margin-left: 10px;}
+    .skodabtn{margin-left: 5px;}
+    .citroenbtn{margin-top: 1px;}
+    .daciabtn{margin-top: 1px;}
+
+    /*  CARS  */
+    /* RANGE EVOQUE */
+    .range{
+        margin: 0;
+        width: 100%;
+        display: grid;
+    }
+
+    .range img{
+        margin-left: 150px;
+    }
+
+    .range .range-pics{
+        width: 370px;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .range-pics img{
+        margin: 0;
+    }
+
+    .range-evoque{
+        padding-left: -110px;
+        display: grid;
+        width: 370px;
+    }
+
+    .range-evoque img{
+        width: 370px;
+    }
+
+    .range-pics .price h5{
+        padding-left: 120px;
+        margin: 0;
+    }
+
+    .range-pics .price h2{
+        padding-left: 66px;
+    }
+
+    .range-pics .details{
+        margin-left: 145px;
+    }
+
+    .range-pics a{
+        margin-left: 90px;
+        padding-left: 30px;
+    }
+
+
+    /* RANGE SPORT */
+
+    .range-sport{
+        padding-left: -110px;
+        display: grid;
+        width: 370px;
+    }
+
+    .range-sport img{width: 365px}
+
+
+    /* VOLKSWAGEN */
+    .volks{
+        margin: 0;
+        width: 100%;
+        display: grid;
+    }
+    .volks img{margin-left: 176px;}
+    .volks-pics{
+    width: 480px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    }
+    .volks-pics img{
+        margin: 0;
+        width: 365px;
+    }
+    .volks-pics h4{width: 365px;}
+    .volks .price{width: 410px}
+    .volks-pics .price h5{margin-left: 120px;width: 95px}
+    .volks-pics .price h2{width: 40px;}
+    .volks-pics .details{margin-left: 145px;}
+    .volks-pics a{
+        margin-left: 94px;
+        padding-left: 30px;
+    }
+    .tiguan{margin: 0;padding-left: 50px;width: 420px;}
+    .touareg{margin: 0;padding-left: 50px;width: 420px;}
+
+
+    /* JEEP AND SKODA */
+    .double{
+        width: 480px;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    /* JEEP */
+    .jeep img { margin-left: 160px;}
+    .jeep .renegade img{
+        width: 365px;
+        margin-left: 60px;
+    }
+    .renegade{
+        width: 480px;
+        margin-right: 110px;
+    }
+    .renegade h4{width: 365px; margin-left: 60px;}
+    .renegade .price{width: 460px}
+    .renegade .price h5{margin-left: 170px;width: 84px}
+    .renegade .price h2{width: 40px;margin-left: 0px;}
+    .renegade .details{margin-left: 200px;}
+    .renegade a{
+        margin-left: 144px;
+        padding-left: 40px;
+    }
+
+
+    /* SKODA */
+    .skoda{width: 480px;}
+    .skoda img{margin-left: 180px;}
+    .octavia{width: 480px;}
+    .octavia h4{width: 365px; margin-left: 60px;}
+    .skoda .octavia img{
+        margin-left: 60px;
+        width: 365px;
+    }
+    .octavia .price{width: 400px;}
+    .octavia .price h5{
+        width: 100px;
+        margin-left: 185px;
+    }
+    .octavia .price h2{
+        width: 50px;
+        margin-left: -19px;
+    }
+    .octavia .details{margin-left: 200px;}
+    .octavia a{
+        width: 120px;
+        margin-left: 144px;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+
+    /* HYUNDAI */
+    .hyundai img{margin-left: 170px;}
+    .hyundai .hyundai-cars{
+        width: 370px;
+        margin-left: 40px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .i10 img{
+        width: 355px;
+        margin-left: 25px;
+    }
+
+    /* I10 */
+    .i10 .price{margin-left: -44px;}
+    .i10 .price h5{
+        width: 100px;
+        margin-left: 180px;
+    }
+    .i10 .price h2{
+        width: 50px;
+        margin-left: -19px;
+    }
+    .i10 .details{margin-left: 157px;}
+    .i10 a{
+        width: 120px;
+        margin-left: 112px;
+        padding-left: 23px;
+        padding-right: 15px;
+    }
+    
+    /* ACCENT */
+    .accent img{
+        width: 355px;
+        margin-left: 0;
+    }
+    .accent .price{margin-left: -65px;}
+    .accent .price h5{
+        width: 100px;
+        margin-left: 185px;
+    }
+    .accent .price h2{
+        width: 50px;
+        margin-left: -19px;
+    }
+    .accent .details{margin-left: 136px;}
+    .accent a{
+        width: 120px;
+        margin-left: 85px;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+
+    /* ELANTRA */
+    .elantra img{
+        width: 355px;
+        margin-left: 10px;
+    }
+    .elantra .price{margin-left: -58px;}
+    .elantra .price h5{
+        width: 100px;
+        margin-left: 185px;
+    }
+    .elantra .price h2{
+        width: 50px;
+        margin-left: -19px;
+    }
+    .elantra .details{margin-left: 145px;}
+    .elantra a{
+        width: 120px;
+        margin-left: 95px;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+
+    /* RENAULT */
+    .renault img{margin-left: 200px;}
+    .renault .renault-cars{
+        width: 480px;
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    /* CLIO 5 */
+    .clio5 img{
+        width: 355px;
+        margin-left: 70px;
+    }
+    .clio5 h4{width: 365px; margin-left: 60px;}
+    .clio5 .price{width: 400px;}
+    .clio5 .price h5{
+        width: 100px;
+        margin-left: 180px;
+    }
+    .clio5 .price h2{
+        width: 50px;
+        margin-left: -19px;
+    }
+    .clio5 .details{margin-left: 197px;}
+    .clio5 a{
+        width: 120px;
+        margin-left: 155px;
+        padding-left: 23px;
+        padding-right: 15px;
+        padding-bottom: 8px;
+    }
+
+    /* EXPRESS */
+    .express img{
+        width: 355px;
+        margin-left: 30px;
+    }
+    .express h4{margin-left: 28px;width: 358px}
+    .express .price{margin-left: -33px;}
+    .express .price h5{
+        width: 100px;
+        margin-left: 180px;
+    }
+    .express .price h2{
+        width: 50px;
+        margin-left: -19px;
+    }
+    .express .details{margin-left: 163px;}
+    .express a{
+        width: 120px;
+        margin-left: 125px;
+        padding-left: 23px;
+        padding-right: 15px;
+        padding-bottom: 8px;
+    }
+
+    /* CLIO 4 */
+    .clio4 img{
+        width: 355px;
+        margin-left: 40px;
+    }
+    .clio4 h1{margin-left: 38px;width: 358px;}
+    .clio4 .price h5{
+        width: 100px;
+        margin-left: 150px;
+    }
+    .clio4 .price h2{
+        width: 50px;
+        margin-left: -19px;
+    }
+    .clio4 h6{padding-left: 20px;width: 82px;}
+    .clio4 h3{width: 80px;padding-left: 2px;}
+    .clio4 h4{padding-left: 18px;}
+    .clio4 .details{margin-left: 163px;}
+    .clio4 a{
+        width: 120px;
+        margin-left: 125px;
+        padding-left: 23px;
+        padding-right: 15px;
+        padding-bottom: 8px;
+    }
+
+
+    /* CITROEN */
+    .citroen .citroen-pics{
+        width: 480px;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .citroen img{margin-left: 170px;}
+
+    /* C-ELYSEE */
+    .c-elysee img{
+        width: 355px;
+        margin-left: 10px;
+    }
+    .c-elysee h4{width: 356px;margin-left: 10px;}
+    .c-elysee .price{margin-left: -5px;}
+    .c-elysee .price h5{
+        width: 100px;
+        margin-left: 128px;
+    }
+    .c-elysee .price h2{
+        width: 50px;
+        margin-left: -19px;
+    }
+    .c-elysee .details{margin-left: 147px;}
+    .c-elysee a{
+        width: 120px;
+        margin-left: 105px;
+        padding-left: 23px;
+        padding-right: 15px;
+        padding-bottom: 8px;
+    }
+
+    /* C3 */
+    .c3{width: 480px;margin: 0px;}
+    .c3 img{
+        width: 400px;
+        margin-left: 40px;
+    }
+    .c3 h4{width: 400px;margin-left: 40px;}
+    .c3 .price{width: 480px;}
+    .c3 .price h5{
+        width: 200px;
+        margin-left: 190px;
+    }
+    .c3 .price h2{
+        width: 50px;
+        margin-left: -109px;
+    }
+    .c3 .details{margin-left: 205px;}
+    .c3 a{
+        width: 120px;
+        margin-left: 165px;
+        padding-left: 23px;
+        padding-right: 15px;
+        padding-bottom: 8px;
+    }
+
+    /* DACIA */    
+    .dacia img{margin-left: 180px;}
+    .dacia .dacia-pics{
+        width: 480px;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    /* DACIA LOGAN  */
+    .logan{width: 480px;margin: 0px}
+    .logan img{width: 365px;margin-left: 60px}
+    .logan h4{margin-left: 60px;width: 365px}
+    .logan .price{width: 470px;}
+    .logan .price h5{
+        width: 100px;
+        margin-left: 180px;
+    }
+    .logan .price h2{
+        width: 50px;
+        margin-left: -19px;
+    }
+    .logan .details{margin-left: 195px;}
+    .logan a{
+        width: 120px;
+        margin-left: 155px;
+        padding-left: 23px;
+        padding-right: 15px;
+        padding-bottom: 8px;
+    }
+
+    /* DUSTER */
+    .duster{width: 480px;margin: 0px;}
+    .duster img{width: 385px;margin-left: 50px}
+    .duster h4{margin-left: 50px;width: 385px}
+    .duster .price{width: 470px;}
+    .duster .price h5{
+        width: 100px;
+        margin-left: 180px;
+    }
+    .duster .price h2{
+        width: 50px;
+        margin-left: -19px;
+    }
+    .duster .details{margin-left: 200px;}
+    .duster a{
+        width: 120px;
+        margin-left: 160px;
+        padding-left: 23px;
+        padding-right: 15px;
+        padding-bottom: 8px;
+    }
+
+
+    /* FOOTER */
+    footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 30px;
+    }
+
+    .contact{
+        width: 483px;
+        grid-template-columns: repeat(1,1fr);
+        height: 848px;
+    }
+
+    /*  YELLOW LINE*/
+    .first{
+        margin-left: 200px;
+    }
+
+    /*  COPY gray line  */
+    .second{
+        width: 480px;
+    }
+
+    .icons{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    .icon1{margin-right: 22px;}
+    .icon1 p{
+        margin-left: -25px;
+        width: 170px;
+    }
+    .icon2 {margin-right: 30px;}
+    .icon2 p{padding-left: 32px;}
+    .icon3{margin-left:50px;}
+    .icon3 p{margin-left: 26px;}
+
+    .contact h4{
+        font-size: 60px;
+    }
+
+    .contact h6{
+        font-size: 19px;
+        width: 474px;
+        margin-left: 5px;
+    }
+
+    iframe {
+        width: 70%;
+        margin-left: 80px;
+    }
+
+    .social{
+        margin-left: 200px;
+    }
+
+}
